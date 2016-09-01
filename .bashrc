@@ -2,6 +2,9 @@
 # ~/.bashrc
 #
 
+# Splunk Alias
+alias 'splunkbin'='cd /opt/splunk/bin/'
+
 # Reset
 Color_Off='\e[0m'       # Text Reset
 
