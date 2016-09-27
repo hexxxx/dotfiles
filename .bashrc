@@ -89,28 +89,29 @@ On_IWhite='\e[0;107m'   # White
 # fi
 PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\W\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[0;37m\]'
 
-alias ls='ls --color=auto'
-alias pipes2='pipes -p 3 -t c++++++++++++++++ -r 3000'
+# alias pipes2='pipes -p 3 -t c++++++++++++++++ -r 3000'
 # alias pipes2='pipes -p 3 -t 10 -r 3000'
     #maybe 3
     #maybe 7. must be shorter than 20000
-alias GA='cd /home/hex/GA'
-alias Prog='cl /home/hex/Programming'
-alias Documents='cd /home/hex/Documents'
-alias ws='wiki-search'
-alias wsh='wiki-search-html'
-alias wsl='wiki-search-lynx'
+# alias GA='cd /home/hex/GA'
+# alias Prog='cl /home/hex/Programming'
+# alias Documents='cd /home/hex/Documents'
+# alias ws='wiki-search'
+# alias wsh='wiki-search-html'
+# alias wsl='wiki-search-lynx'
+# alias youtube-dl-audio='youtube-dl --extract-audio --audio-format=mp3'
+
+alias ls='ls --color=auto'
 alias ll='ls -la'
-alias youtube-dl-audio='youtube-dl --extract-audio --audio-format=mp3'
 
 #alias xowa='sh ~/xowa/xowa_linux_64.sh &'
 #alias pia='sh /usr/local/bin/pia.sh'
 #alias i3user='chromium /usr/share/doc/i3/i3wm.org/docs/userguide.html'
 
 export PATH=$PATH:/usr/local/bin
-export PATH="$HOME/.rbenv/bin:$PATH"
-export VISUAL="subl"
-eval "$(rbenv init -)"
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# export VISUAL="subl"
+# eval "$(rbenv init -)"
 
 # sets chromium as the environment browswer
 if [ -n "$DISPLAY" ]; then
