@@ -4,6 +4,7 @@
 
 # Splunk Alias
 alias 'splunkbin'='cd /opt/splunk/bin/'
+alias 'sstatus'='cd /opt/splunk/bin/ && ./splunk status'
 
 # Reset
 Color_Off='\e[0m'       # Text Reset
