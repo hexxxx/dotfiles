@@ -4,6 +4,7 @@
 
 # Splunk Alias
 alias 'splunk'='/opt/splunk/bin/splunk'
+alias 'fsplunk'='/opt/splunkforwarder/bin/splunk'
 alias 'splunkbin'='cd /opt/splunk/bin/'
 alias 'forwardbin'='cd /opt/splunkforwarder/bin'
 alias 'sstatus'='cd /opt/splunk/bin/ && ./splunk status'
