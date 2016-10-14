@@ -18,7 +18,7 @@ cat <<EOT >> ~/.vimrc
 syntax enable
 colorscheme monokai
 
-" call with `call Header(80, 'foo')`
+" call with   : call Header(80, 'foo')
 function Header(width, word)
     let a:inserted_word = ' ' . a:word . ' '
     let a:word_width = strlen(a:inserted_word)
