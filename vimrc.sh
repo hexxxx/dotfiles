@@ -14,7 +14,7 @@ mv ~/.vim/dotfiles/vim-monokai/colors ~/.vim
 mv ~/.vim/dotfiles/vim-splunk/ftdetect ~/.vim
 mv ~/.vim/dotfiles/vim-splunk/syntax ~/.vim
 touch ~/.vimrc
-cat <<EOT >> .vimrc
+cat <<EOT >> ~/.vimrc
 syntax enable
 colorscheme monokai
 EOT
